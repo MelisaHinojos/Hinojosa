@@ -1,0 +1,13 @@
+name: Build and test of Java Project
+
+on: [ push ]
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      
+      - name: Echo a string
+        run: echo Hello, world!
+
