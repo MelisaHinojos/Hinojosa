@@ -15,7 +15,7 @@ jobs:
         run: ls /etc
       - name: listar archivos ocultos
         run: ls -a /etc
-      - name: crear carpetas
-        run: mkdir /home/alumno
+      - name: CP
+        run: cp
       
 
