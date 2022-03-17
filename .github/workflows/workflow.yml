@@ -23,6 +23,8 @@ jobs:
         run: cd home
       - name: mkdir
         run: mkdir alumno
+      - name: cat
+        run: cat text.txt
 
 
         
