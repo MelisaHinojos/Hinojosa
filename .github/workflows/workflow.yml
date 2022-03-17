@@ -17,7 +17,8 @@ jobs:
         run: ls -a /etc
       - name: pwd
         run: pwd 
-      - name: cat
-        run: cat readme.md
+      - name: mkdir
+        run: mkdir home
+
       
 
