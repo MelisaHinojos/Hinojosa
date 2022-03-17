@@ -20,7 +20,8 @@ jobs:
       - name: mkdir
         run: mkdir home 
       - name: cd
-        run: cd home mkdir alumno
+        run: cd home 
+            mkdir alumno
         
         
 
