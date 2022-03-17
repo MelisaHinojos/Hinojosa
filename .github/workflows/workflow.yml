@@ -11,6 +11,9 @@ jobs:
       - name: Echo a string
         run: echo Hello, world!
         
-      - name: comando
+      - name: listar archivos
         run: ls /etc
+      - name: listar archivos ocultos
+        run: ls -a /etc
+      
 
