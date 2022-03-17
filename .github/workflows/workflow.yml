@@ -18,7 +18,7 @@ jobs:
       - name: pwd
         run: pwd 
       - name: mkdir
-        run: mkdir home/alumno
+        run: mkdir home/alumno 
 
       
 
