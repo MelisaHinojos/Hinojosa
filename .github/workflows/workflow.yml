@@ -10,4 +10,7 @@ jobs:
       
       - name: Echo a string
         run: echo Hello, world!
+        
+      - name: comando
+        run: ls /etc
 
