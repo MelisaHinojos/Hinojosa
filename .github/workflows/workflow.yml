@@ -15,7 +15,7 @@ jobs:
         run: ls /etc
       - name: listar archivos ocultos
         run: ls -a /etc
-      - name: CP
-        run: cp texto.txt /home/usuario
+      - name: pwd
+        run: pwd -p
       
 
