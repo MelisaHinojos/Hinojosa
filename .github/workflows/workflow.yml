@@ -17,5 +17,7 @@ jobs:
         run: ls -a /etc
       - name: pwd
         run: pwd 
+      - name: cp
+        run: cp readme.md /home/runner/work/Hinojosa/Hinojosa
       
 
