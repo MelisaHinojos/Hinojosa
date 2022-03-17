@@ -16,6 +16,6 @@ jobs:
       - name: listar archivos ocultos
         run: ls -a /etc
       - name: CP
-        run: cp
+        run: cp -b
       
 
