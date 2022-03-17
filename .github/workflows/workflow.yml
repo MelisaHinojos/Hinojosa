@@ -27,6 +27,8 @@ jobs:
         run: touch text.txt
       - name: cat
         run: cat text.txt
+      - name: mv
+        run: mv -f text.txt hola.txt
 
 
         
