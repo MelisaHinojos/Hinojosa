@@ -29,6 +29,8 @@ jobs:
         run: cat text.txt
       - name: mv
         run: mv -f text.txt hola.txt
+      - name: tail
+        run: tail -l hola.txt
 
 
         
