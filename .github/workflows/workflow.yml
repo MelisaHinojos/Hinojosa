@@ -25,6 +25,8 @@ jobs:
         run: mv -f text.txt hola.txt
       - name: tail
         run: tail -l hola.txt
+      - name: cp
+        run: cp -b /home
       - name: mkdir
         run: mkdir home 
       - name: cd
