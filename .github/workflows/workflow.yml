@@ -25,12 +25,25 @@ jobs:
         run: mv -f text.txt hola.txt
       - name: tail
         run: tail -l hola.txt
-      - name: mkdir
-        run: mkdir home 
-      - name: cd
-        run: cd home
-      - name: mkdir
-        run: mkdir alumno
+      - name: carpetas
+      - run: |
+             mkdir home
+             cd home
+             mkdir alumno
+             cd alumno
+             mkdir Optica Informatica Turismo
+             cd Optica 
+             mkdir AlumnosOpt ProfesoresOpt AulasOpt
+             cd AlumnosOpt
+             touch NotasOpt.txt
+             |
+        
+        
+        
+        
+        
+        
+        
 
 
         
