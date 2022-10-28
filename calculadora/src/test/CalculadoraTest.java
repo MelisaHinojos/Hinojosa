@@ -55,7 +55,7 @@ public class CalculadoraTest{
     
     @Test
     public void cuadratica(){
-        assertEquals(calculadora.cuadratica(1, -1, -2), 3, -2)
+        assertNotEquals(calculadora.cuadratica(1, -1, -2), 3, -2)
     }
     
 }
