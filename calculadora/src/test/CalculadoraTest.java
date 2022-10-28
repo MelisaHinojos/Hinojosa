@@ -50,6 +50,12 @@ public class CalculadoraTest{
 
     @Test
     public void cuadratica(){
-        assertEquals(calculadora.cuadratica(1, 2, 8),)
+        assertEquals(calculadora.cuadratica(1, -1, -2), 2, -1)
     }
+    
+    @Test
+    public void cuadratica(){
+        assertEquals(calculadora.cuadratica(1, -1, -2), 3, -2)
+    }
+    
 }
